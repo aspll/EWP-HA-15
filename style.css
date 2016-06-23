@@ -1,0 +1,12 @@
+body {
+    font-family: Verdana;
+}
+
+span {
+    font-weight: bold;
+    color: darkblue;
+}
+
+#workflow {
+    line-height: 150%;
+}
