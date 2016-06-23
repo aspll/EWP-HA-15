@@ -9,4 +9,9 @@ span {
 
 #workflow {
     line-height: 150%;
+    margin-bottom: 50px;
+}
+
+#git-commands {
+    padding-top: 30px;
 }

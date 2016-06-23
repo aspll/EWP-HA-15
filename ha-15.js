@@ -18,3 +18,8 @@ $("#tp4").tooltipster( {
 $("#tp5").tooltipster( {
     content: $("#tp5-c").detach()
 });
+
+$("#git-commands").DataTable({
+    "ajax": "ha-15.json",
+    "lengthMenu": [[5, 10, -1],[5, 10, "All"]]
+});

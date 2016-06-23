@@ -1,0 +1,25 @@
+{
+  "data" : [
+    ["git clone",
+      "$ git clone https://github.com/aspll/EWP-HA-15.git"
+    ],
+    ["git add",
+      "$ git add index.html"
+  ],
+    [
+      "git commit",
+      "$ git commit -m \"Beschreibung der Änderung\""
+    ],
+    [
+      "git push",
+      "$ git push origin master"
+    ],
+    [
+      "git pull",
+      "$ git pull origin master"
+    ]
+
+]
+}
+
+
