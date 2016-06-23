@@ -14,20 +14,22 @@
     <h2>Der Git-Workflow</h2>
 
     <div id="workflow">Als erstes wird ein Repositorium bei GitHub anglegt. Dieses kann dann mit dem Terminalbefehl <span id="tp1">git clone</span>
-        und der URL des Repositorium auf den eigenen Rechner heruntergeladen werden.
+        und der URL des Repositoriums auf den eigenen Rechner heruntergeladen werden.
         Jetzt kann der Code bearbeitet werden. Mit dem Terminalbefehl <span id="tp2">git add</span> werden die Änderungen
-        in einem staged snapshot vermerkt/vorbereitet und schließlich mit <span id="tp3">git commit</span> im Lokalen.git zwischengespeichert.
-        Per <span id="tp4">git push</span> wird dann der Ordner wieder in das Repositorium auf GitHub hochgeladen. Von dort kann dann wieder per <span id="tp4">git pull</span>
-
-
+        in einem staged snapshot vermerkt und schließlich mit <span id="tp3">git commit</span> im lokalen .git-Verzeichnis zwischengespeichert.
+        Per <span id="tp4">git push</span> wird dann der Ordner wieder in das Repositorium auf GitHub hochgeladen.
+        Das .git-Repositorium auf dem eigenen Rechner kann per <span id="tp5">git pull</span> mit dem Repositorium auf GitHub synchronisiert werden
+        und die aktuelle Version bzw. der gewünschte Branch geklont werden.
     </div>
 
 
-<div>id="tp1-c"> $ git clone https://github.com/aspll/EWP-HA-15.git</div>
-<div>id="tp2-c"> $ git add index.html</div>
-<div>id="tp3-c"> $ git commit -m "Beschreibung der Änderung"</div>
-<div>id="tp4-c"> $ git push origin master</div>
-<div>id="tp4-c"> $ git pull origin master</div>
+
+
+<div id="tp1-c"> $ git clone https://github.com/aspll/EWP-HA-15.git</div>
+<div id="tp2-c"> $ git add index.html</div>
+<div id="tp3-c"> $ git commit -m "Beschreibung der Änderung"</div>
+<div id="tp4-c"> $ git push origin master</div>
+<div id="tp5-c"> $ git pull origin master</div>
 
 
 
